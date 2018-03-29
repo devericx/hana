@@ -1,0 +1,57 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+
+html {
+    font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #66A6FF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #66A6FF;
+}
+
+ol li {
+    margin-bottom: 0.5rem;
+}
+
+#logo {
+    width: 32px;
+    height: 32px;
+}
+
+#logo-header {
+    color: black;
+}
+
+#logo-header:hover {
+    text-decoration: none;
+}
+
+#profile {
+    width: 56px;
+    height: 56px;
+}
+
+#container {
+    max-width: 640px;
+}
+
+@media screen and (min-width: 48em) {
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #profile {
+        width: 64px;
+        height: 64px;
+    }
+}
